@@ -1,6 +1,10 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -9,14 +13,21 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  display: flex;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  /*margin: 15px;*/
+  display: flex;
+  margin: 10px;
+  padding: 0px;
+  gap: 10px;
+  
 }
 
-a {
+a { /*This is the individual number boxes*/
   font-size: 22px;
   background: white;
   padding: 8px;
